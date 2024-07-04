@@ -1,117 +1,105 @@
-# Elden Ring Cheat Table
-
-![Cheat Table Version](https://img.shields.io/github/v/release/The-Grand-Archives/Elden-Ring-CT-TGA?include_prereleases&label=Cheat%20Table&sort=semver&logo=github)
-![Downloads](https://img.shields.io/github/downloads/The-Grand-Archives/Elden-Ring-CT-TGA/total?label=Downloads&logo=github)
-[![Discord](https://img.shields.io/discord/334557263203401729?label=Discord&logo=discord)](https://dsc.gg/the-grand-archives)  
-Elden Ring Cheat Engine table maintained by The Grand Archives.
-
-## Discord
-
-Our community, make sure to read the rules carefully.  
-[The Grand Archives](https://dsc.gg/the-grand-archives)  
-
-If it doesn't work, try this [alternative invite](https://discord.gg/2RTW6BFgeX)
-
-## Latest Release
+## Último lançamento
 
 [![Download](https://img.shields.io/badge/dynamic/json.svg?label=download&url=https://api.github.com/repos/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest&query=$.assets[0].name&style=for-the-badge)](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest)  
 [Changelog](/CHANGELOG.md)
 
-### Requirements
+### Requisitos
 
 Cheat Engine: [7.4](https://github.com/cheat-engine/cheat-engine/releases)  
 Game: App ver. 1.12
 
-## How to use
+## Como usar
 
-### Info
+### Informações
 
-This table is not meant to be used online and you will most likely be banned if you attempt to do so.
+Esta table não se destina a ser usada online e você provavelmente será banido se tentar fazê-lo.
 
 ### Cheat Table (Windows)
 
-1. Download and install Cheat Engine either from [Github](https://github.com/cheat-engine/cheat-engine/releases) or from its [website](https://cheatengine.org/)
-2. Download the [Cheat Table](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases)
-3. Unpack the .CT file anywhere, a recommendation would be your **My Cheat Tables** folder (e.g. `%USERPROFILE%\Documents\My Cheat Tables`)
-4. Disable EasyAntiCheat and run the game, see [Disabling EasyAntiCheat](#disabling-easyanticheat)
-5. Load the .CT file directly via double-click or selecting it and pressing enter, or launch Cheat Engine and load the .CT file via File->Load or by clicking on the folder icon
-6. Activate the "Open" script by ticking its box
+1. Baixe e instale o Cheat Engine no [Github](https://github.com/cheat-engine/cheat-engine/releases) ou no [website](https://cheatengine.org/)
+2. Baixe a [Tabela de dicas](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases)
+3. Descompacte o arquivo .CT em qualquer lugar, uma recomendação seria sua pasta **My Cheat Tables** (por exemplo, `%USERPROFILE%\Documents\My Cheat Tables`)
+4. Desative o EasyAntiCheat e execute o jogo, consulte [Desativar o EasyAntiCheat](#disabling-easyantiCheat)
+5. Carregue o arquivo .CT diretamente clicando duas vezes ou selecionando-o e pressionando Enter, ou inicie o Cheat Engine e carregue o arquivo .CT via Arquivo-> Carregar ou clicando no ícone da pasta
+6. Ative o script "Abrir" marcando sua caixa
 
 ### Cheat Table (Linux)
 
-I expect you to already have Steam, Wine, Proton, and the game installed
+Espero que você já tenha Steam, Wine, Proton e o jogo instalados
 
-1. Launch the game at least once via Steam to have your wine prefix set up
-2. Install [protonhax](https://github.com/jcnils/protonhax) (On Arch you should grab [protonhax-git](https://aur.archlinux.org/packages/protonhax-git))
-3. Download and install the **Windows** version of Cheat Engine from [Github](https://github.com/cheat-engine/cheat-engine/releases) or from its [website](https://cheatengine.org/) using **Wine**
-4. Download the [Cheat Table](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases)
-5. Unpack the .CT file anywhere, a recommendation would be somewhere you can easily find within the wine prefix created for the game (e.g. `~/.steam/steam/steamapps/compatdata/1245620/pfx/drive_c/`)
-6. In Steam, set the game's launch options to `protonhax init %command%`
-7. Run the game via Steam ([Disabling EasyAntiCheat](#disabling-easyanticheat) is optional)
-8. Run Cheat Engine via `protonhax run 1245620 /path/to/Cheat\ Engine.exe` in your terminal of choice or put it in a shell script (replace `/path/to/` with your actual path to where you installed CE)
-9. Load the .CT file via File->Load or by clicking on the folder icon
-10. Activate the "Open" script by ticking its box
+1. Inicie o jogo pelo menos uma vez via Steam para configurar seu prefixo de vinho
+2. Instale [protonhax](https://github.com/jcnils/protonhax) (No Arch você deve pegar [protonhax-git](https://aur.archlinux.org/packages/protonhax-git))
+3. Baixe e instale a versão **Windows** do Cheat Engine no [Github](https://github.com/cheat-engine/cheat-engine/releases) ou no [site](https://cheatengine .org/) usando **Wine**
+4. Baixe a [Tabela de dicas](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases)
+5. Descompacte o arquivo .CT em qualquer lugar, uma recomendação seria algum lugar que você possa encontrar facilmente dentro do prefixo wine criado para o jogo (por exemplo, `~/.steam/steam/steamapps/compatdata/1245620/pfx/drive_c/`)
+6. No Steam, defina as opções de inicialização do jogo para `protonhax init %command%`
+7. Execute o jogo via Steam ([Desativar EasyAntiCheat](#disabling-easyanticheat) é opcional)
+8. Execute o Cheat Engine via `protonhax run 1245620 /path/to/Cheat\ Engine.exe` no terminal de sua escolha ou coloque-o em um script de shell (substitua `/path/to/` pelo caminho real para onde você instalou CE)
+9. Carregue o arquivo .CT via Arquivo -> Carregar ou clicando no ícone da pasta
+10. Ative o script "Abrir" marcando sua caixa
 
-### Disabling EasyAntiCheat
+### Desativando EasyAntiCheat
 
-#### Method 1 - Recommended
+#### Método 1 - Recomendado
 
-1. Unpack `steam_appid.txt` from the [latest release](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest)
-2. Locate your Elden Ring folder (e.g. `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` or `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
-3. Move `steam_appid.txt` into the same folder as your Elden Ring executable (`eldenring.exe`)
+1. Descompacte `steam_appid.txt` da [versão mais recente](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest)
+2. Localize sua pasta Elden Ring (por exemplo, `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` ou `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
+3. Mova `steam_appid.txt` para a mesma pasta do executável Elden Ring (`eldenring.exe`)
 4.
-   - Windows: Run the game via `eldenring.exe`
-   - Linux: Add `eldenring.exe` as a non-steam app and run that
+   - Windows: execute o jogo via `eldenring.exe`
+   - Linux: adicione `eldenring.exe` como um aplicativo não Steam e execute-o
 
-#### Method 2 - Compatibility
 
-1. Download LukeYui's Offline Launcher from [Nexusmods](https://www.nexusmods.com/eldenring/mods/98) or [Github](https://github.com/LukeYui/launch_modded_eldenring)
-2. Locate your Elden Ring folder (e.g. `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` or `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
-3. Move the downloaded .exe file into the same folder as your Elden Ring executable (`eldenring.exe`)
+#### Método 2 - Compatibilidade
+
+1. Baixe o iniciador offline de LukeYui em [Nexusmods](https://www.nexusmods.com/eldenring/mods/98) ou [Github](https://github.com/LukeYui/launch_modded_eldenring)
+2. Localize sua pasta Elden Ring (por exemplo, `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` ou `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
+3. Mova o arquivo .exe baixado para a mesma pasta do executável Elden Ring (`eldenring.exe`)
 4.
-   - Windows: Run the game via the **Offline Launcher**
-   - Linux: Add the **Offline Launcher** to Steam as a non-steam app and run that
+   - Windows: execute o jogo através do **Iniciador offline**
+   - Linux: adicione o **Offline Launcher** ao Steam como um aplicativo não Steam e execute-o
 
-#### Method 3 - Legacy
+#### Método 3 - Legado
 
-1. Locate your Elden Ring folder (e.g. `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` or `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
-2. Rename `start_protected_game.exe` to something else (e.g. `start_protected_game.exe.bak`)
-3. Rename `eldenring.exe` to `start_protected_game.exe`
-4. Run the game via Steam or `start_protected_game.exe`
+1. Localize sua pasta Elden Ring (por exemplo, `C:\Program Files\Steam\steamapps\common\ELDEN RING\Game` ou `~/.steam/steam/steamapps/common/ELDEN RING/Game/`)
+2. Renomeie `start_protected_game.exe` para outro nome (por exemplo, `start_protected_game.exe.bak`)
+3. Renomeie `eldenring.exe` para `start_protected_game.exe`
+4. Execute o jogo via Steam ou `start_protected_game.exe`
 
-## Credits
+## Créditos
 
 The Grand Archives | Reason
 ------------- | ---------------------
-Ametalon | Table contributions (DS3)
-Apricus | Event Flags, MassItemGib
-Careless Esper | Grace ID Names
-[Coinsworth](https://github.com/LukeYui/) | Table contributions, advice
-Dalvik | Advice, ideas
-[Dasaav](https://github.com/Dasaav-dsv) | Functionality reworks and additions
-[hery](https://github.com/heryoff) | Grace ID Names
-[Igromanru](https://github.com/igromanru) | Param Patcher, advice
-[inuNorii](https://github.com/inuNorii) | Porting, maintaining, research
-Jouta Kujo | Param scripts
-RBT | Param scripts, Event Flags
-Relinquished001 | Table contributions
-[sfix](https://github.com/garyttierney) | Table contributions, param dumps, advice
-Silence | Spreadsheet
-The-Raid-Boss | MassItemGib additions
-[tremwil](https://github.com/tremwil/) | CParamUtils and more table contributions
+Ametalão | Contribuições de tabela (DS3)
+Apricus | Sinalizadores de evento, MassItemGib
+Esper descuidado | Nomes de identificação de graça
+[Coinsworth](https://github.com/LukeYui/) | Contribuições de mesa, conselhos
+Dalvik | Conselhos, ideias
+[Dasaav](https://github.com/Dasaav-dsv) | Retrabalhos e adições de funcionalidades
+[hery](https://github.com/heryoff) | Nomes de identificação de graça
+[Igromanru](https://github.com/igromanru) | Param Patcher, conselho
+[inuNorii](https://github.com/inuNorii) | Portando, mantendo, pesquisando
+Jouta Kujo | Scripts de parâmetros
+RBT | Scripts de parâmetros, sinalizadores de eventos
+Abandonado001 | Contribuições de mesa
+[sfix](https://github.com/garyttierney) | Contribuições de tabela, param dumps, conselhos
+Silêncio | Planilha
+O-Chefe do Raid | Adições de MassItemGib
+[tremwil](https://github.com/tremwil/) | CParamUtils e mais contribuições de tabela
+
 
 Github | Reason
 ------------- | ---------------------
-[Mar-Veloz](https://github.com/Mar-Veloz) | Give all crafting materials x999
-[qwelias](https://github.com/qwelias) | ReinforceLv pointer
+[Mar-Veloz](https://github.com/Mar-Veloz) | Dê a todos os materiais de artesanato x999
+[qwelias](https://github.com/qwelias) | Ponteiro ReinforceLv
 
-Seamless PvP Community | Reason
+Comunidade PvP perfeita | Reason
 ------------- | ---------------------
-Jacky Dima | Script contributions
-Jouta Kujo | Script contributions
-Orang | Script contributions
+Jacky Dima | Contribuições de roteiro
+Jouta Kujo | Contribuições de roteiro
+Laranja | Contribuições de roteiro
 
-Other | Reason
+Others | Reason
 ------------- | ---------------------
 AssassinXMod | Unlock all Summoning Pools
 Pav | Free Camera
