@@ -1,6 +1,6 @@
 ## Último lançamento
 
-[![Download](https://img.shields.io/badge/dynamic/json.svg?label=download&url=https://api.github.com/repos/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest&query=$.assets[0].name&style=for-the-badge)](https://github.com/bielrocca/Elden-Ring-CheatEngine/releases/tag/v1.12.1)  
+[![Download](https://img.shields.io/badge/dynamic/json.svg?label=download&url=https://api.github.com/repos/The-Grand-Archives/Elden-Ring-CT-TGA/releases/latest&query=$.assets[0].name&style=for-the-badge)](https://github.com/bielrocca/Elden-Ring-CheatEngine/releases/tag/v1.13.0)  
 [Changelog](/CHANGELOG.md)
 
 ### Requisitos
