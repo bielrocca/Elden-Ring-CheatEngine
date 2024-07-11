@@ -6,7 +6,7 @@
 ### Requisitos
 
 Cheat Engine: [7.4](https://github.com/cheat-engine/cheat-engine/releases)  
-Game: App ver. 1.12
+Game: App ver. 1.13
 
 ## Como usar
 
